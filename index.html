@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lights out solver</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="icon"  href="Images/icon.png">
+</head>
+
+<body>
+    <!-- MADE BY XUTEBOX PLEASE PROVIDE CREDIT IF USING MY CODE -->
+
+    <div id="flex">
+        <div></div>
+        <div id="lightsgrid"></div>
+        <div id="solutiongrid"></div>
+        <div id="buts"> <button class="button" id="restart">Restart</button>
+            <button class="button" id="solveOn">All on</button>
+            <button class="button" id="solveOff">All off</button>
+            <button class="button" id="solveMid">Middle</button>
+        </div>
+        <div></div>
+    </div>
+    <div id="info">
+        <div id="htu">
+            <div id="title">How to use:</div>
+            <ol type="1">
+                <li>Put in your current lights out combination. RC - toggles one light. LC - toggles lights like usual.
+                </li>
+                <li>Click which combination you want the lights to be in. (All on, All off, Middle)</li>
+                <li>Click on the tiles where are "1" in the grid with the solution.</li>
+                <li>You should end up with the desired patern!</li>
+            </ol>
+        </div>
+        <label id="error">If you encounter any errors, message me and I will try to fix them!<br>However, remember that some combinations created using right clicks may not be solvable.<br></label>
+        <label id="me">Made By XuteBox</label>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
